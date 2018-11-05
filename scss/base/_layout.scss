@@ -1,0 +1,23 @@
+.container {
+	position: relative;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+//larget than 400px
+@include bp(mobile-up) {
+	.container {
+		width: 85%;
+		padding: 0;
+	}
+}
+
+//larger than 550px
+@include bp(phablet-up) {
+	.container {
+		width: 80%;
+	}
+}

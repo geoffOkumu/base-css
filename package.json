@@ -1,0 +1,22 @@
+{
+	"name": "base-css",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "parcel watch index.html",
+		"build": "parcel build index.html"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"mappy-breakpoints": "^0.2.3",
+		"modularscale-sass": "^3.0.8",
+		"node-sass": "^4.10.0",
+		"parcel-bundler": "^1.10.3"
+	},
+	"dependencies": {
+		"sass": "^1.14.3"
+	}
+}

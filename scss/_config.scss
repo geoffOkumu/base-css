@@ -1,0 +1,65 @@
+// ----------------------------------------------------------------------------
+// Configuration
+// ----------------------------------------------------------------------------
+
+// Colors
+// -------------------------
+
+$white: #fff;
+$black: #000;
+$primary: #5da8f3;
+$secondary: #83bcf5;
+$alt: #a4cdf6;
+$cyan: #2fcce1;
+$grey: #f4f4f4;
+
+// Breakpoints
+// -------------------------
+$breakpoints: (
+	mobile-up: 400px,
+	phablet-up: 550px,
+	desktop-up: 1000px,
+	deskhd-up: 1200px
+);
+
+// Modular scale map
+// ---------------------
+$modularscale: (
+	base: 1em 1.25em,
+	ratio: 1.618
+);
+// Type
+// -------------------------
+$base-font-size: 16px;
+$base-line-height: 1.5;
+$base-font-color: $black;
+$scale: 1.333;
+$leading: $base-line-height * 1rem;
+$sans-serif: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+$serif: 'Playfair Display', 'Georgia', 'serif';
+$mono: 'Roboto Mono', 'Monaco', monospace !default;
+$base-font-family: $sans-serif;
+$header-font-family: $sans-serif;
+$base-bold-weight: 700;
+$base-link-color: $primary;
+$base-link-hover: opacify($primary, 0.8);
+$box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+// Defaults
+// -------------------------
+$base-unit: 0.5rem; // if font-size is 16px, this should be 8px (8pt scale)
+$unit: $base-unit;
+$base-radius: 2px;
+$base-time: 0.3s;
+$base-ease: ease;
+// z-index
+// -------------------------
+$z-index: (
+	bury: -1,
+	content: 10,
+	header: 20,
+	navtrigger: 22,
+	modal: 40
+);
+// Style
+// -------------------------
+$body-bg: $white;
