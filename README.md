@@ -13,3 +13,5 @@ Install
 -   Clone repo
 -   `npm install`
 -   `npm run dev` - cutomize to your liking
+
+Forked from Skeloto Css and Edited by [Geoff Okumu](https://www.geoffokumu.com/)
